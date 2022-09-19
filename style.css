@@ -34,7 +34,6 @@ button {
 .hero,
 .information,
 .quote,
-.sign-up,
 .footer {
   padding: 16px 150px;
 }
@@ -132,4 +131,29 @@ button {
   font-weight: bold;
   text-align: right;
   margin-right: 32px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  margin: 100px 150px;
+  padding: 50px 100px;
+}
+
+.sign-up .content {
+  color: white;
+}
+
+.sign-up .content .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-up button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
 }
