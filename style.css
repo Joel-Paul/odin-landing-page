@@ -157,3 +157,9 @@ button {
   border-width: 2px;
   border-color: white;
 }
+
+.footer {
+  text-align: center;
+  color: white;
+  padding: 32px;
+}
